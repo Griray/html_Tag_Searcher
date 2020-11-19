@@ -13,6 +13,5 @@ class TestSearcher(unittest.TestCase):
         self.assertEqual(searcher.get_html_for_test(link), '<Response [200]>')
 
 
-
 if __name__ == "__main__":
     unittest.main()

@@ -13,3 +13,5 @@ def start():
 
     tags_data = searcher.count_tags(link)
     return tags_data
+
+start()

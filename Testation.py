@@ -45,6 +45,5 @@ class TestSearcher(unittest.TestCase):
         self.assertDictEqual(self.link2.count_tags(), TagSearcher('https://www.vk.com').count_tags())
 
 
-
 if __name__ == "__main__":
     unittest.main()

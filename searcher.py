@@ -10,7 +10,8 @@ class TagSearcher:
     def __init__(self, link: str):
         self.link = link
 
-    def get_check_date(self):
+    @staticmethod
+    def get_check_date():
         check_date = time.strftime('%d/%m/%Y')
         return check_date
 
